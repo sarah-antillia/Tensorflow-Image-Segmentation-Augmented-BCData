@@ -16,7 +16,6 @@ on these points defined in the h5 annotation files. While these masks are not pr
 they can still be used as the first step to train a BCData segmentation model.<br>
 Please see also <a href="https://github.com/sarah-antillia/ImageMask-Dataset-BCData/blob/main/H5AnnotationParser.py">H5AnnotationParser.py</a>.<br>
   
- 
 <br>
 <hr>
 <b>Actual Image Segmentation for 640x640 images</b><br>
@@ -329,7 +328,7 @@ binary_accuracy,0.9264
 </h3>
 Please move to a <i>./projects/TensorflowSlightlyFlexibleUNet/BCData</i> folder
 , and run the following bat file to infer segmentation regions for the images 
-in <a href="./projects/TensorflowSlightlyFlexibleUNet/BCData/mini_test/images"><b>mini_test/images</b></a> by the Trained-TensorflowUNet model for Camelyon.<br>
+in <a href="./projects/TensorflowSlightlyFlexibleUNet/BCData/mini_test/images"><b>mini_test/images</b></a> by the Trained-TensorflowUNet model for BCData.<br>
 <pre>
 ./3.infer.bat
 </pre>
@@ -337,7 +336,7 @@ in <a href="./projects/TensorflowSlightlyFlexibleUNet/BCData/mini_test/images"><
 python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer_aug.config
 </pre>
 The <a href="./projects/TensorflowSlightlyFlexibleUNet/BCData/mini_test/"><b>mini_test</b></a>
-folder contains some large image and mask files taken from the original BCSS dataset.<br><br>
+folder contains some image and mask files taken from the original BCSS dataset.<br><br>
 <hr>
 <b>mini_test_images</b><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/BCData/asset/mini_test_images.png" width="1024" height="auto"><br>

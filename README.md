@@ -315,7 +315,7 @@ Evaluation console output:<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/BCData/asset/evaluate_console_output_at_epoch_35.png" width="720" height="auto">
 <br><br>
 <a href="./projects/TensorflowSlightlyFlexibleUNet/BCData/evaluation.csv">evaluation.csv</a><br>
-The loss (bce_dice_loss) for the <a href="./dataset/BCData/test">test</a> dataset is not so low.<br>
+The loss (bce_dice_loss) for the <i>./dataset/BCData/test</i> set is not so low.<br>
 <pre>
 loss,0.2234
 binary_accuracy,0.9264

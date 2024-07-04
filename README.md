@@ -16,7 +16,6 @@ on these points defined in the h5 annotation files. While these masks are not pr
 they can still be used as the first step to train a BCData segmentation model.<br>
 Please see also <a href="https://github.com/sarah-antillia/ImageMask-Dataset-BCData/blob/main/H5AnnotationParser.py">H5AnnotationParser.py</a>.<br>
   
-<br>
 <hr>
 <b>Actual Image Segmentation for 640x640 images</b><br>
 As shown below, the <b>Circled pointwise masks</b>, which were created by us using  
